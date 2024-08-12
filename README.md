@@ -29,5 +29,4 @@ which are used to predict diabetes.
 - **BMI**: Body mass index (weight in kg/(height in m)^2)
 - **Diabetes Pedigree Function**: A function that scores likelihood of diabetes based on family history
 - **Age**: Age in years
-- **Outcome**: Class variable (0 or 1)
 
