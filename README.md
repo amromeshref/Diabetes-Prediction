@@ -8,10 +8,14 @@ glucose levels, age, BMI, and other relevant factors. The model is implemented u
 - [Project Overview](#project-overview)
 - [Dataset](#dataset)
 
+___
+
 ## Project Overview
 
 The goal of this project is to create a predictive model that can accurately determine whether a person has diabetes based on various medical 
 input features. The model is built using PyTorch and leverages an Artificial Neural Network (ANN) for classification.
+
+___
 
 ## Dataset
 
