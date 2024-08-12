@@ -25,6 +25,7 @@ class Predictor:
         Returns:
             predictions(0/1): np.ndarray
         """
-        predictions = self.model(x)
+        with torch.no_grad():
+            predictions = self.model(x)
         predictions = torch.round(predictions).detach().numpy()
         return predictions
